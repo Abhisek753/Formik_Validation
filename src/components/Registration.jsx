@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { GlobalStyle } from "../Styles/globalStyles";
 import { useFormik } from "formik";
-import { signUpSchema } from "../schemas/index";
+import { formUpSchema } from "../schemas/index";
 
 const initialValues = {
   name: "",
