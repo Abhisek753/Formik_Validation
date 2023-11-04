@@ -129,7 +129,7 @@ const Registration = () => {
                       onChange={handleChange}
                       onBlur={handleBlur}
                     />
-                    {errors.password && touched.password ? (
+                    {errors.age && touched.age ? (
                       <p className="form-error">{errors.password}</p>
                     ) : null}
                   </div>
