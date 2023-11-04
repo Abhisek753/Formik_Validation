@@ -130,7 +130,7 @@ const Registration = () => {
                       onBlur={handleBlur}
                     />
                     {errors.age && touched.age ? (
-                      <p className="form-error">{errors.password}</p>
+                      <p className="form-error">{errors.age}</p>
                     ) : null}
                   </div>
                   <div className="modal-buttons">
